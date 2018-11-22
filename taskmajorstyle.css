@@ -1,0 +1,119 @@
+
+    .bg-theme{
+        background:url(imgback.png);
+        background-size:cover;
+        height:100vh;
+    }
+
+     p {
+        color:white;
+    }
+    html,body{
+        height:100%;
+    }
+
+    form {border: 3px solid #f1f1f1;}
+
+    input[type=text], input[type=password] {
+        width: 50%;
+        padding: 12px 20px;
+        margin: 8px 0;
+        display: inline-block;
+       
+        border-left:0px;
+        border-right:0px;
+        border-top:0px;
+    }
+
+    .button1{
+        display:inline-block;
+          padding:10px 10px;
+          float:left;
+          width:130px;
+          border-radius: 5px;
+          background-color:#0272b9;
+          box-shadow: none;
+          border: none;
+          color: white;
+    }
+    .button2{
+           display:inline-block;
+            float:right;
+            padding:10px 10px;
+            width:130px;
+            border-radius: 5px;
+           background-color: transparent;
+            border: solid 1px #ccc;
+        color:grey;
+    }
+
+    .dropdown{
+            text-align:right;
+    }
+    .btn-secondary {
+            -webkit-appearance:none;
+            color: black;
+            background-color: WHITE;
+            border-color: #6c757d;
+    }
+    .last{
+     
+    
+        width:100%;
+        font-size: smaller;
+    }
+    .logo-images img {
+        height: 35px;
+    }
+
+    @media only screen and (max-width: 767px) {
+       .first  {
+                background:url(imgback.png);
+                background-size:cover;
+        }
+        .position-md-relative {
+            position: relative !important;
+        }
+        .dropdownmenu  {
+            display:none;
+
+        }
+        
+        .second,.button2  {
+           color:white;
+
+        }
+        
+        input[type=text], input[type=password]   {
+           background:none;
+          width:100%;
+           color:white;
+
+      }
+        label ,a, input::placeholder{
+           color:white !important;
+
+        }
+       .button1,.button2  {
+           margin-top: 40px;
+
+        }
+       .rem,.forg {  
+        font-size:10px;
+        }
+    }
+
+@media only screen and (max-width: 580px) {
+    .d-xs-block {
+        display: block !Important;
+    }
+}
+
+    @media only screen and (min-width: 768px) {
+       .second  {
+           color:dimgray;
+
+        }
+    }
+
+ 
